@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(59, 59, 59);
+    text-align: center;
+    color: black;
+    border-color: aqua;
+}
+
+li {
+    list-style: none;
+}
+
+h1{
+    color: white
+}
+
+button {
+    border-color: rgb(255, 6, 89);
+    border-style: outset;
+    color: black;
+    border-radius: 50px;
+    width: 250px;
+    height: 30px;
+    text-decoration: solid;
+}
+
+ #container {
+     width: 290px;
+     height: auto;
+     text-align: center;
+     margin:4px auto;
+ }
+
+ #calculadora {
+     width:234px;
+     height:230px;
+     margin: 0 auto;
+     padding: 2px;
+     color:black;
+     background-color: rgb(119, 119, 119);
+     border-radius: 10px;
+ }
+
+ .input-valor {
+     margin: 8px auto;
+     width:95%;
+     height:30px;
+     font-size:16px;
+     overflow: hidden;
+     text-align: center;
+     color:rgb(255, 0, 0);
+     padding: 4px;
+     background-color: rgb(255, 255, 255);
+     box-shadow: inset -1px -1px 4px -1px rgb(255, 255, 255);
+     border-radius: 10px;
+ }
+
+ .key li {
+     width: 50px;
+     height: 30px;
+     border-radius: 3px;
+     color:rgb(100, 100, 100);
+     background-color: #adb1ff;
+     cursor: pointer;
+     float: left;
+     margin: 0px -3px 5px 8px;
+     line-height: 30px;
+     text-align: center;
+     box-shadow: 0px 3px 1px 0px #444651;
+ }
+
+.key li:hover {
+    background-color: #7f82b8;
+    transition: 0.2s;
+    color: #353535;
+}
+
+ .key li:active{
+     box-shadow: 0px 1px 1px 0px rgb(100, 100, 100);
+ }
+ 
+ .verificar {
+    width: 93.4% !important;
+ }
